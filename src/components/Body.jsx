@@ -40,10 +40,13 @@ export default function Body() {
         <div className='flex flex-wrap items-center justify-center bg-black absolute bg-opacity-60 w-full h-full'>
           <div class="bg-gradient-to-br from-blue-800 shadow-black border-b-2 border-black shadow-2xl rounded-3xl via-yellow-600 to-red-500 p-1">
               <div class="bg-white rounded-3xl p-4">
-                <h1 className='lg:text-8xl font-semibold bg-gradient-to-r from-red-600 via-yellow-600 text-center to-indigo-800 inline-block text-transparent bg-clip-text font-mono'>PRADNYA CONSULTANT</h1>
+                <h1 className='lg:text-8xl text-5xl 
+                
+                
+                font-semibold bg-gradient-to-r from-red-600 via-yellow-600 text-center to-indigo-800 inline-block text-transparent bg-clip-text font-mono'>PRADNYA CONSULTANT</h1>
               </div>
             </div>
-                <img src={pclogo} className='lg:hidden'/>
+                {/* <img src={pclogo} className='lg:hidden'/> */}
             <div className='w-full flex items-center justify-center'>
               <div className="lg:typewriter lg:h-24 flex items-center p-2 bg-gradient-to-l from-teal-800 to-teal-600 rounded-lg text-2xl">
                 <h1 className='lg:text-5xl text-4xl text-center'>Shaping Tomorrow's Technology with Innovation</h1>
@@ -56,7 +59,7 @@ export default function Body() {
         <div className=' w-full lg:absolute top-0 lg:h-1/6'>
           <h1 className=' text-6xl font-semibold p-10 w-full'>Services</h1>
         </div>
-        <div className=' p-5 bg-gradient-to-br w-screen rounded-lg from-teal-200 via-slate-200 text-black to-gray-200 text-3xl font-light flex items-center justify-center'>
+        <div className=' p-5 bg-gradient-to-br w-screen rounded-lg text-justify from-teal-200 via-slate-200 text-black to-gray-200 text-3xl font-light flex items-center justify-center'>
           At Pradnya Consultant, we take pride in offering a diverse range of services that cater to the evolving needs of our clients. Our expertise extends beyond conventional boundaries, allowing us to deliver comprehensive solutions that drive innovation and efficiency. Here's a glimpse of our multifaceted service offerings
         </div>
        </div>
@@ -138,11 +141,11 @@ export default function Body() {
         </div>
       </section>
       <section id='about' className=' bg-gradient-to-br from-slate-200 via-slate-300 to-slate-400 flex flex-wrap items-center justify-center min-h-screen h-auto w-full'>
-        <div className=' bg-black w-full min-h-screen lg:p-10 bg-opacity-60'>
+        <div className=' bg-black w-full min-h-screen  lg:p-10 bg-opacity-60'>
           <div className=' w-full top-0 lg:h-1/6'>
             <h1 className=' text-6xl font-semibold lg:p-10 p-5 w-full'>About US</h1>
           </div>
-          <div className=' lg:h-5/6 lg:absolute flex flex-wrap left-0 lg:p-10 items-center justify-center w-full'>
+          <div className='  text-white font-thin text-xl lg:h-5/6 h-auto lg:absolute flex flex-wrap left-0 lg:p-5 items-center justify-center w-full'>
             <div className='lg:w-2/3 w-full p-4 text-justify space-y-3'>
               <span className=' font-semibold text-xl'>Pradnya Consultant - Empowering Innovation since 2014.</span> At Pradnya Consultant, we are more than just a consulting firm; we are the architects of tomorrow's technology. Established in 2014 as a proprietary firm, Pradnya Consultant has earned its reputation as a trailblazer in the fields of IoT and Embedded Electronics Product Development. Our journey has been one marked by innovation, excellence, and a commitment to ethical business practices.
               <h2 className=' pt-2 font-semibold font-mono text-2xl'>
@@ -187,13 +190,13 @@ export default function Body() {
       <footer className=' flex flex-wrap items-center justify-center'>
         <div className='  lg:w-1/4 w-full lg:h-20 m-10 rounded-lg'>
           <img src={pclogo} style={{ width: '300px'}} alt='PC Logo' />
-          <span className=' block text-justify font-thin' style={{width:'300px'}}>
+          <span className=' block  text-white text-justify font-thin' style={{width:'300px'}}>
             <b>Pradnya Consultant,</b> pioneering IoT and Embedded Electronics since 2014, architects innovative tech solutions. we epitomizes innovation, excellence, and ethical business practices.
           </span>
         </div>
         <div className=' lg:w-1/4 w-full lg:h-20 m-10 text-2xl font-semibold rounded-lg'>
           <div className=' lg:ml-20'>
-            <span className=' underline'>QUICK LINKS</span>
+            <span className=' text-white underline'>QUICK LINKS</span>
             <span className=' block text-justify font-thin' style={{width:'300px'}}>
               <div className="">
                 <h2 className={` decoration-2 text-lg block hover:underline font-bungee`}>
@@ -219,7 +222,7 @@ export default function Body() {
         </div>
         <div className=' lg:w-1/4 w-full lg:h-20 m-10 rounded-lg'>
         <div className=' lg:ml-20 pb-10'>
-            <span className=' underline text-2xl font-semibold'>STAY WITH US</span>
+            <span className=' underline  text-white text-2xl font-semibold'>STAY WITH US</span>
             <span className=' block text-justify font-thin' style={{width:'300px'}}>
               <div className=" m-2">
                 <ul>
